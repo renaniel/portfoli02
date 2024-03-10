@@ -1,0 +1,63 @@
+/* navigation bar css */
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    max-width: 100%;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right h3 {
+    font-family: 'IBM Plex Mono';
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* main css */
+.section {
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.section h3,
+.section p {
+    font-family: 'IBM Plex Mono';
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    background-color: rgb(118, 118, 118);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
